@@ -1,0 +1,65 @@
+.container {
+  text-align: center;
+}
+
+.card {
+  width: 500px;
+  height: 400px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 1px solid #52a6af;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #52a6af;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+}
+
+.input input {
+  padding: 5px 5px 5px 8px;
+  border: none;
+  outline: none;
+  flex: 1;
+}
+
+.input button {
+  padding: 5px 10px;
+  color: white;
+  background-color: #52a6af;
+  border: none;
+  cursor: pointer;
+}
+
+.list-container {
+  height: 200px;
+  padding-left: 15px;
+  margin-top: 10px;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+.list-box {
+  width: auto;
+  padding: 0 2px;
+  margin: 5px;
+  background-color: rgb(250, 221, 255);
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.list-box button {
+  margin-left: auto;
+  color: red;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
